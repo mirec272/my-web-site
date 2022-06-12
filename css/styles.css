@@ -1,0 +1,155 @@
+
+body {
+  /* set up the text color */
+  color: #40514E;
+  /* will overwright 8px margin, which is standard used in browser*/
+  margin: 0;
+  /* all objects will be in the center */
+  text-align: center;
+  /* will change all text in this font */
+  /* imported from google fonts */
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;  /* relative em , 1 em - 16 px*/
+  line-height: 2;
+  margin: 50px auto 0 auto; /* top right bottom left */
+  /* from google fonts too */
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem; /* relative em - equivalent to 40px - 2.5rem*/
+  /* google fonts too */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  /* litle bit of space */
+  padding-bottom: 10px;
+}
+
+h3 {
+  /* google fonts too */
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2; /* all the paragraphs will be spaced vertically to 2 (double) */
+}
+
+hr {
+  border: dotted #EAF6F6 6px; /* style colour in width */
+  border-bottom: none; /* only single line */
+  width: 4%; /* of parent div */
+  margin: 100px auto; /* top and bottom , left and right - auto - in the middle */
+}
+
+/* targeting all of the anker tags */
+a {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif; /*change the font */
+  margin: 10px 20px; /*top and bottom, left and right ... between the ankers*/
+  text-decoration: none; /* i had changed it, because in the setting are alle ankers underlined ... */
+}
+
+/* if i move over anker - hover, change the colour to th white */
+a:hover {
+  color: #EAF6F6;
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  /* move the top container about 100px down from the bottom */
+  padding-top: 100px;
+}
+
+.middle-container {
+  /* 100 px top and bottom and 0px left and right */
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px; /* odstup - top left and right(0) and bottom */
+}
+
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;  /* top - 100px from top, auto from right, 100px from bottom and auto from left - just in the middle with space from top and bottom */
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%; /* of parent container - middle */
+  margin: auto; /* text will be in the center */
+}
+
+.contact-message {
+  width: 40%;  /* of parent div */
+  margin: 40px auto 60px; /* 40px - top and left, right - auto - in the middle, 60px - bottom */
+}
+
+.copyright {
+  color: #EAF6F6; /* white color */
+  font-size: 0.75rem; /* 0.75 percent of 16pix */
+  padding: 20px 0; /* odstup - 20px top and bottom, 0px left and right */
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.code-img {
+  width: 25%;
+  float: left;  /* image will be on the left side */
+  margin-right: 30px;  /* will make a 30px space on the right, so that will be better for the text */
+}
+
+.chilli-img {
+  width: 25%;
+  float: right; /* image will be on the right side */
+  margin-left: 30px; /* on the left from image will make a 30px space */
+}
+
+/* button style imported from the website css3buttongenerator.com */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif; /* here i changed the text, taken from h3 */
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
